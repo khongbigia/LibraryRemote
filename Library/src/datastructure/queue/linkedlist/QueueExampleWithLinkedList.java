@@ -54,4 +54,8 @@ remove()-Removes and returns the head of the queue. Throws NoSuchElementExceptio
 poll()-Removes and returns the head of the queue. Returns null if queue is empty.
 
 Since it is a subtype of Collections class, it inherits all the methods of it namely size(), isEmpty(), contains() etc.
+
+offer method - tries to add an element to a queue, and returns false if the element can't be added (like in case when a queue is full), or true if the element was added, and doesn't throw any specific exception.
+
+add method - tries to add an element to a queue, and returns false if the element is already present in the queue, or returns true if the element was added, and it throws an exception if the queue is full.
 */
